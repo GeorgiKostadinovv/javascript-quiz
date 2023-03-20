@@ -1,0 +1,17 @@
+* {
+   background-color: beige;
+   margin: 0;
+   padding: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.main-container {
+    margin: 0 auto;
+}
