@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="question-container">
-        <h2>Question 1</h2>
-        <div class="option-container">
-            <p>
-                Option 1
+    <h1 id="question-text">
+        Question 
+    </h1>    
+        <div class="option-container" data-number="1">
+            <p class="option-text">
+                 Option 1
             </p>
         </div>
-        <div class="option-container">
-            <p>
-                Option 2 
+        <div class="option-container" data-number="2">
+            <p class="option-text">
+                <input type="radio"> Option 2 
             </p>
         </div>
-        <div class="option-container">
-            <p>
-                Option 3
+        <div class="option-container" data-number="3">
+            <p class="option-text">
+                <input type="radio"> Option 3
             </p>
         </div>
-        <div class="option-container">
-            <p>
-                Option 4
+        <div class="option-container" data-number="4">
+            <p class="option-text">
+                <input type="radio"> Option 4
             </p>
         </div>
     </div>
-    <div class="question-container">
+    <!-- <div class="question-container">
         <h2>Question 2</h2>
         <div class="option-container">
             <p>
@@ -122,6 +123,7 @@
                 Option 4
             </p>
         </div>
-    </div>
+    </div> -->
+    <script src="/game.js"></script>
 </body>
 </html>

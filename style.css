@@ -1,12 +1,15 @@
 * {
-   background-color: beige;
    margin: 0;
    padding: 0;
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-align: center;
    box-sizing: border-box;
-   font-size: 2rem;
+   font-size: 1.5rem;
    text-decoration: none;
+}
+
+body {
+    background-color: beige;
 }
 
 h1 {
@@ -37,4 +40,25 @@ h1 {
 .button:hover {
     font-size: smaller;
     transition: 0.1s;
+}
+
+.option-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    background-color: black;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: coral;
+    margin-top: 0.5rem;
+}
+
+.option-container:hover {
+    font-size: smaller;
+}
+
+#question-text {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
