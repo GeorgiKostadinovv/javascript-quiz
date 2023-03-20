@@ -1,8 +1,11 @@
 const question = document.querySelector('#question') 
 const options = Array.from(document.querySelectorAll('.option-text'))
 
-let currentQuetion = {}
+let currentQuestion = {}
 let aceptingAnswers = true
+let questionCounter = 0
+let availableQuestions = []
+let score = 0
 
 let questions = [
     {
@@ -46,3 +49,12 @@ let questions = [
         answer: 0
     },
 ]
+
+const MAX_QUESTIONS = 0
+
+startGame = () => {
+    questionCounter = 0
+    availableQuestions = [...questions]
+    nextQuestion ()
+} 
+
