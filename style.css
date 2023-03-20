@@ -5,13 +5,31 @@
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-align: center;
    box-sizing: border-box;
+   font-size: 2rem;
+   text-decoration: none;
 }
 
 h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     margin-top: 1rem;
+    font-size: 1.5em;
 }
 
 .main-container {
     margin: 0 auto;
+  
+}
+
+#welcome {
+    flex-direction: column;
+    display: flex;
+}
+
+.button {
+    color: coral;
+    margin-bottom: 1rem;
+    background-color: black;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
