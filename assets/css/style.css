@@ -1,3 +1,10 @@
 body {
-    background-color: olivedrab;
+    background-color: rgb(120, 58, 97);
+    text-align: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
