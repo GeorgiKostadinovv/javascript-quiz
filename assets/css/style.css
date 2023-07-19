@@ -8,3 +8,17 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.question-area {
+    
+        background-color: #E6ECF0;
+        box-sizing: border-box;
+        width: 85%;
+        height: 50vh;
+        max-height: 450px;
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+    
+}

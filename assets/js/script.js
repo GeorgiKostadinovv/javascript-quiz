@@ -1,1 +1,9 @@
-console.log ("Conected")
+runGame ()
+
+displayQuestion()
+
+checkAnswer()
+
+incrementScore ()
+
+decreaseLifes ()
