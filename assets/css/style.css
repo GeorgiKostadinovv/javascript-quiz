@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(120, 58, 97);
+    background-color: rgb(153, 129, 23);
     text-align: center;
     
 }
@@ -9,7 +9,7 @@ body {
     justify-content: center;
 }
 
-#question-area {
+#app {
     background-color:burlywood;
     box-sizing: border-box;
     width: 85%;
@@ -24,7 +24,7 @@ body {
         
 }
 
-.current-question-area {
+#question {
     height: 5vh;
     border-bottom: 1px solid black;
     padding-bottom: 15px;
@@ -54,20 +54,11 @@ body {
     color:white;
 }
 
-#prev-btn {
-    width: 125px;
-    height: 50px;
-    margin: 20px 100px 0;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    
-}
 
 #next-btn {
     width: 125px;
     height: 50px;
-    margin: 20px 100px 0;
+    margin: 50px auto 0;
     cursor: pointer;
     background-color: black;
     color: white;
