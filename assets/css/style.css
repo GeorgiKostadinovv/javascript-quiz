@@ -1,19 +1,26 @@
 body {
-    background-color: rgb(153, 129, 23);
+    background-color: rgb(151, 216, 31);
     text-align: center;
     
 }
 
-.logo {
+#logo {
     display: flex;
-    justify-content: center;
+    max-width: 100px;
+    max-height: 100px;
 }
 
-#app {
+.navbar,a {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+
+.app {
     background-color:burlywood;
     box-sizing: border-box;
     width: 85%;
-    height: 50vh;
+    height: 100vh;
     max-height: 450px;
     max-width: 830px;
     margin-left: auto;
@@ -31,7 +38,7 @@ body {
     
 }
 
-#answer-area {
+#answer-buttons{
     height: 30vh;
     
 } 
