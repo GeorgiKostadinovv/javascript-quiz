@@ -20,6 +20,7 @@ body {
     margin-right: auto;
     padding: 1%;
     border: 2px;
+    border-radius: 4px;
         
 }
 
@@ -45,9 +46,29 @@ body {
     border-radius: 4px;
     font-size: 17px;
     text-align: left;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color:darkgreen;
     color:white;
+}
+
+#prev-btn {
+    width: 125px;
+    height: 50px;
+    margin: 20px 100px 0;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
+
+#next-btn {
+    width: 125px;
+    height: 50px;
+    margin: 20px 100px 0;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
