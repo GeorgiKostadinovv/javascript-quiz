@@ -1,25 +1,27 @@
 body {
-    background-color: rgb(27, 53, 170);
+    background-image: url("/assets/images/quiz.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     text-align: center;
     
 }
 
 #logo {
+    max-width: 75px;
+    max-height: 75px;
     display: flex;
-    max-width: 100px;
-    max-height: 100px;
-}
-#logo-div {
-    background-color: rgb(31, 165, 100);
-    width: 100%;
-    height: auto;
 }
 
-.navbar,a {
-    text-align: center;
-    box-sizing: border-box;
-    padding: 15px 15px;
-}
+
+
+.navbar {
+    
+    height: auto;
+    background-color: rgb(29, 131, 18);
+    justify-content: center;
+  }
+
 
 .app {
     background-color:burlywood;
@@ -28,6 +30,7 @@ body {
     height: 100vh;
     max-height: 450px;
     max-width: 830px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
@@ -82,4 +85,8 @@ body {
 
 .incorrect {
     background-color: red;
+}
+
+#bottom-copyright{
+    margin-top: 75px;
 }
