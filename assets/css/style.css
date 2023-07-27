@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/images/quiz.jpg");
+    background-image: url("/assets/images/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -8,23 +8,38 @@ body {
 }
 
 #logo {
-    max-width: 75px;
-    max-height: 75px;
-    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+    justify-content: center;
 }
 
 
 
 .navbar {
-    
-    height: auto;
-    background-color: rgb(29, 131, 18);
-    justify-content: center;
+    padding-top: 25px;
+    background-color: rgb(21, 2, 2, 0.1);
+    overflow: auto;
+
   }
+  
+.navbar a {
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+.navbar a:hover {
+    background-color: rgb(174, 8, 163);
+  }
+  
+
+  
 
 
 .app {
-    background-color:burlywood;
+    background-color:rgb(210, 178, 210);
     box-sizing: border-box;
     width: 85%;
     height: 100vh;
@@ -88,5 +103,7 @@ body {
 }
 
 #bottom-copyright{
-    margin-top: 75px;
+    margin-top: 50px;
+    font-size: 17px;
+    color: white;
 }
