@@ -13,37 +13,38 @@ body {
     justify-content: center;
 }
 
-
+.welcome-img {
+    width: 100%;
+    height: auto;
+}
 
 .navbar {
     padding-top: 25px;
     background-color: rgb(21, 2, 2, 0.1);
     overflow: auto;
-
-  }
+}
   
 .navbar a {
     justify-content: center;
     color: white;
     text-decoration: none;
     font-size: 17px;
-    
-  }
+}
   
 .navbar a:hover {
     background-color: rgb(174, 8, 163);
   }
   
-
-  
-
+.heading {
+    border-bottom: 1px solid black;
+}
 
 .app {
     background-color:rgb(210, 178, 210);
     box-sizing: border-box;
     width: 85%;
     height: 100vh;
-    max-height: 450px;
+    max-height: 500px;
     max-width: 830px;
     margin-top: 50px;
     margin-left: auto;
@@ -51,19 +52,15 @@ body {
     padding: 1%;
     border: 2px;
     border-radius: 4px;
-        
 }
 
 #question {
     height: 5vh;
-    border-bottom: 1px solid black;
     padding-bottom: 15px;
-    
 }
 
 #answer-buttons{
     height: 30vh;
-    
 } 
 
 .btn {
@@ -84,7 +81,6 @@ body {
     color:white;
 }
 
-
 #next-btn {
     width: 125px;
     height: 50px;
@@ -103,7 +99,32 @@ body {
 }
 
 #bottom-copyright{
-    margin-top: 50px;
     font-size: 17px;
     color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rules {
+    background-color: rgb(26, 1, 24, 0.3);
+    color: white;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
 }

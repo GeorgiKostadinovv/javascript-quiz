@@ -11,15 +11,33 @@
     <title>QUizWorld</title>
 </head>
 <body>
+    <!--Contains the logo picture-->
+
     <img id = "logo" src = "assets/images/logo.png" alt = "Logo">
+
+    <!--Navigation bar with sections and icons-->
+
     <div class="navbar">    
         <a href="welcome.html"><i class="fa fa-fw fa-home"></i>WELCOME!</a>
         <a class="active" href="index.html"><i class="fa-solid fa-play fa-sm"></i>GAME</a>
         <a href="contact.html"><i class="fa fa-fw fa-envelope"></i>CONTACT US</a>
+        <a href="rules.html"><i class="fa-solid fa-book-open fa-sm"></i>RULES</a>
     </div>
 
+    <!--Contains the contact form-->
+    <div class="container">
+        <form action="action_page.php">
 
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <input type="text" id="email" name="email" placeholder="Your email.." required>
+          <textarea id="subject" name="subject" placeholder="Your comment goes here.." style="height:200px"></textarea>
 
+        </form>
+        <button>Submit</button>
+      </div>
+
+    <!--Copyright section-->
     <div id = "bottom-copyright">Copyright</div>
 
     <script src="assets/js/script.js"></script>
