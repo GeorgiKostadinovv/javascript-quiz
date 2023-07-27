@@ -18,6 +18,8 @@ body {
     height: auto;
 }
 
+/*Styles navigation bar and links*/
+
 .navbar {
     padding-top: 25px;
     background-color: rgb(21, 2, 2, 0.1);
@@ -59,6 +61,8 @@ body {
     padding-bottom: 15px;
 }
 
+/*Styles answer buttons and Next btn*/
+
 #answer-buttons{
     height: 30vh;
 } 
@@ -90,13 +94,28 @@ body {
     color: white;
 }
 
+/* Styles the submit button */
+
+.form-btn {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+/* Styles the answer button if correct*/
+
 .correct {
     background-color: greenyellow;
 }
 
+/* Styles the answer button if correct*/
+
 .incorrect {
     background-color: red;
 }
+
+/* Styles copyright area*/
 
 #bottom-copyright{
     font-size: 17px;
@@ -105,12 +124,15 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: right;
 }
 
 .rules {
     background-color: rgb(26, 1, 24, 0.3);
     color: white;
 }
+
+/* Styles the form area*/
 
 input[type=text] {
     width: 50%;
